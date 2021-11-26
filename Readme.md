@@ -6,19 +6,14 @@ The GetOpt class allows you to easily define and handle command line options and
 
 For example:
 
-  long options: (--foo),
-
-  long options with arguments (--foo=bar),
-
-  short options (-f, /f),
-
-  short options with arguments (-f bar, -fbar) and
-
+  long options: (--foo),\n
+  long options with arguments (--foo=bar),\n
+  short options (-f, /f),\n
+  short options with arguments (-f bar, -fbar) and\n
   consolidated short options (-fb).
 
 # Example
 This example defines 4 options (a, b, foo and bar).
-
 "foo" is required to be given with an argument (eg. --foo=xyz) and bar can be supplied with or without an argument.
 
     try {
