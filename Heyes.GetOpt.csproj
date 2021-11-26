@@ -5,9 +5,11 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <SignAssembly>False</SignAssembly>
-    <VersionPrefix>1.0.4</VersionPrefix>
+    <VersionPrefix>1.0.5</VersionPrefix>
     <Version>$(VersionPrefix)</Version>
     <PlatformTarget>AnyCPU</PlatformTarget>
+    <PackageProjectUrl>https://github.com/AlainBartmanDilaw/Heyes.GetOpt.git</PackageProjectUrl>
+    <PackageTags>GetOpts</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
