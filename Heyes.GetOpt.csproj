@@ -10,8 +10,9 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <PackageProjectUrl>https://github.com/AlainBartmanDilaw/Heyes.GetOpt.git</PackageProjectUrl>
     <PackageTags>GetOpts;GetOpt;Options;CL</PackageTags>
-    <PackageLicenseFile>C:\Users\Alain\source\repos\Heyes.GetOpt\LICENSE</PackageLicenseFile>
+    <PackageLicenseFile>C:\Users\Alain\source\repos\Heyes.GetOpt\LICENSE.txt</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+	<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,6 +20,8 @@
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
+
+	<None Include="LICENSE.txt" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>
