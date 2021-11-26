@@ -5,7 +5,7 @@
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <SignAssembly>False</SignAssembly>
-    <VersionPrefix>1.0.2</VersionPrefix>
+    <VersionPrefix>1.0.3</VersionPrefix>
     <Version>$(VersionPrefix)</Version>
     <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
