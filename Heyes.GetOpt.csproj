@@ -10,18 +10,14 @@
     <PlatformTarget>AnyCPU</PlatformTarget>
     <PackageProjectUrl>https://github.com/AlainBartmanDilaw/Heyes.GetOpt.git</PackageProjectUrl>
     <PackageTags>GetOpts;GetOpt;Options;CL</PackageTags>
-    <PackageLicenseFile>C:\Users\Alain\source\repos\Heyes.GetOpt\LICENSE.txt</PackageLicenseFile>
+    <PackageLicenseFile>c:\Users\Alain\Documents\Projects\_Exela\ToolBox\Heyes.GetOpt\LICENSE.txt</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-	<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Update="Readme.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-
-	<None Include="LICENSE.txt" Pack="true" PackagePath="" />
+    <None Include="Readme.md" Pack="true" PackagePath="" />
+    <None Include="LICENSE.txt" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>
