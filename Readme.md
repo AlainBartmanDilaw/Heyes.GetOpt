@@ -18,8 +18,8 @@ This example defines 4 options (a, b, foo and bar).
 
     try {
         GetOpt foo = new GetOpt(args);
-        GetOpt.SetOpts(new string[] {"a", "b", "foo=", "bar=?"})
-        GetOpt.Parse();
+        foo.SetOpts(new string[] {"a", "b", "foo=", "bar=?"})
+        foo.Parse();
     } catch (ArgumentException e) {
         myProgram.PrintUsage();
     }
