@@ -1,12 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>net20;net35;net5.0;net48</TargetFrameworks>
+    <TargetFrameworks>net20;net35;net5.0;net6.0;net48</TargetFrameworks>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <SignAssembly>False</SignAssembly>
     <VersionPrefix>1.0.8</VersionPrefix>
-    <Version>$(VersionPrefix)</Version>
+    <Version>1.0.9</Version>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <PackageProjectUrl>https://github.com/AlainBartmanDilaw/Heyes.GetOpt.git</PackageProjectUrl>
     <PackageTags>GetOpts;GetOpt;Options;CL</PackageTags>
