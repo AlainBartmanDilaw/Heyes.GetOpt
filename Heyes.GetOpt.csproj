@@ -6,7 +6,7 @@
     <PackageReadmeFile>Readme.md</PackageReadmeFile>
     <SignAssembly>False</SignAssembly>
     <VersionPrefix>1.0.8</VersionPrefix>
-    <Version>$(VersionPrefix)</Version>
+    <Version>1.0.9</Version>
     <PlatformTarget>AnyCPU</PlatformTarget>
     <PackageProjectUrl>https://github.com/AlainBartmanDilaw/Heyes.GetOpt.git</PackageProjectUrl>
     <PackageTags>GetOpts;GetOpt;Options;CL</PackageTags>
