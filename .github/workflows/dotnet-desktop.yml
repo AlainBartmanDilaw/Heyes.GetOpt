@@ -83,7 +83,7 @@ jobs:
         
     # dotnet build and publish
     - name: Build with dotnet
-      run: dotnet build --configuration $env:Configuration
+      run: dotnet build $env:Solution_Name --configuration $env:Configuration
 
     # Restore the application to populate the obj folder with RuntimeIdentifiers
     - name: Restore the application
