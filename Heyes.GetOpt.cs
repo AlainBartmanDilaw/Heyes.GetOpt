@@ -160,6 +160,8 @@ namespace Heyes
 		{
 			this.parsed = true;
 
+			bool allowOptions = true;
+
 			for (int i = 0; i < this.args.Length; ++i)
 			{
 
@@ -168,8 +170,15 @@ namespace Heyes
 
 				string arg = this.args[i];
 
-				// Long option
-				if (arg.StartsWith("--"))
+				// no more options 
+				if (arg == "--")
+				{
+
+					allowOptions = false;
+
+					// Long option
+				}
+				else if (arg.StartsWith("--") && allowOptions)
 				{
 
 					// Option has an argument (eg --foo=bar)
@@ -209,7 +218,7 @@ namespace Heyes
 
 					// Short option(s)
 				}
-				else if (arg.StartsWith("-") || arg.StartsWith("/"))
+				else if ((arg.StartsWith("-") || arg.StartsWith("/")) && allowOptions)
 				{
 
 					optionStruct.option = arg.Substring(1, 1);
